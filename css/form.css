@@ -1,0 +1,46 @@
+.main-container {
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  color: white;
+  height: 62.6vh;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+h3 {
+  color: black;
+}
+
+h4 {
+  color: white;
+}
+
+.input {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+input {
+  padding: 10px 30px;
+}
+
+.form-container {
+  background-color: transparent;
+  padding: 10px;
+}
+
+form .btn {
+  background-color: black;
+  display: block;
+  width: 80%;
+  margin: auto;
+}
+.btn button {
+  background-color: black;
+  color: white;
+}
