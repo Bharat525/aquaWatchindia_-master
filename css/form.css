@@ -4,7 +4,6 @@
   justify-content: space-evenly;
   align-items: center;
 
-  color: white;
   height: 62.6vh;
 }
 
@@ -13,22 +12,24 @@ a {
 }
 
 h3 {
-  color: black;
-}
-
-h4 {
-  color: white;
+  color: #f5a93f;
 }
 
 .input {
-  margin-top: 2rem;
+  margin-top: 1.4rem;
   display: flex;
   flex-direction: column;
 }
-input {
-  padding: 10px 30px;
+
+input:focus {
+  background-color: #f5a93f;
 }
 
+.form-container input {
+  outline: 1px solid #f5a93f;
+  padding: 10px 20px;
+  color: black;
+}
 .form-container {
   background-color: transparent;
   padding: 10px;
@@ -43,4 +44,8 @@ form .btn {
 .btn button {
   background-color: black;
   color: white;
+}
+
+label {
+  padding-top: 10px;
 }

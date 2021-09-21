@@ -70,7 +70,7 @@
                 <div class="header-upper clearfix">
                     <div class="upper-left pull-left clearfix">
                         <figure class="logo-box">
-                            <a href="index.html"><img src="img/logo.png" alt="" /></a>
+                            <a href="index.html"><img src="img/logo4.png" alt="" /></a>
                         </figure>
                     </div>
 
@@ -165,7 +165,7 @@
         <div class="sticky-header">
             <div class="auto-container clearfix">
                 <figure class="logo-box">
-                    <a href="index.html"><img src="img/logo.png" alt="" /></a>
+                    <a href="index.html"><img src="img/logo4.png" alt="" /></a>
                 </figure>
                 <div class="menu-area">
                     <nav class="main-menu clearfix">
@@ -176,7 +176,7 @@
         </div>
     </header>
 
-    <div style="background-image: url(/img/loginWall.jpg);"  class="main-container">
+    <div   class="main-container">
         <div class="img-container">
           <img src="/img/img-2.jpg" alt="">
         </div>
@@ -185,7 +185,7 @@
         <div class="form-container">
             <form action="">
                 <h3>Login</h3>
-                <h4>Does not have an account yet ? sign up</h4>
+                <h9>Does not have an account yet ? sign up</h9>
 
                 <div class="input">
 
@@ -222,16 +222,16 @@
         var elPassword = document.querySelector('#pass').value
         var btn = document.querySelector('button')
 
-        btn.addEventListener('click', clickme)
+        btn.addEventListener('click', clickme())
 
-        console.log(emailinput)
 
         function clickme() {
 
-            if (elPassword && emailinput) {
+            if (elPassword && emailinput === "") {
                 console.log('hello')
             } else {
-              alert()
+               
+              alert
             }
 
         }
