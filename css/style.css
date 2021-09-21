@@ -771,7 +771,7 @@ img {
 
 .main-menu .navigation > li.current:before,
 .main-menu .navigation > li:hover::before {
-  width: 46px;
+  width: 34px;
 }
 
 .main-menu .navigation > li:last-child {
@@ -1358,7 +1358,7 @@ div#mCSB_1_container {
 }
 
 .sticky-header .main-menu .navigation > li > a {
-  padding: 18px 22px 17px 17px !important;
+  padding: 10px 10px 10px 10px !important;
 }
 
 .sticky-header .main-menu .navigation > li > a {
@@ -1382,7 +1382,7 @@ div#mCSB_1_container {
 .sticky-header .menu-area {
   position: relative;
   float: right;
-  padding-top: 32px;
+  padding-top: 42px;
 }
 
 .sticky-header .main-menu .navigation > li > a:before {
@@ -1484,8 +1484,8 @@ div#mCSB_1_container {
 .main-slider h1 {
   position: relative;
   display: block;
-  font-size: 34px;
-  line-height: 70px;
+  font-size: px;
+  line-height: 60px;
   color: rgb(51, 49, 49);
   margin-bottom: 33px;
   font-family: "Playfair Display", serif;
