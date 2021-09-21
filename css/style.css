@@ -2840,6 +2840,41 @@ div#mCSB_1_container {
   -ms-filter: grayscale(100%);
 }
 
+/* login form */
+.outer-container .search-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 70%;
+  padding-top: 30px;
+  padding-left: 150px;
+}
+
+.search-bar input {
+  padding: 20px 10px;
+}
+
+.search-container .login-btn button:hover {
+  background-color: #f5a93f;
+  transition: all 500ms ease;
+}
+
+.search-container .login-btn button:hover a {
+  color: white;
+  transition: all 500ms ease;
+}
+
+.search-container .login-btn button {
+  padding: 10px 20px;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+
+.search-container .login-btn button a {
+  text-decoration: none;
+  color: black;
+}
+
 /** main-footer **/
 
 .main-footer {
