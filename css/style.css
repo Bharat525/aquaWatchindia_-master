@@ -100,6 +100,12 @@ body {
   margin: 0 auto;
 }
 
+.upper-left.pull-left.clearfix {
+  width: 100%;
+  align-items: center;
+  display: flex;
+}
+
 .small-container {
   max-width: 680px;
   margin: 0 auto;
@@ -1390,7 +1396,7 @@ div#mCSB_1_container {
   border: 1px solid #f5a93f;
   position: relative;
   float: left;
-  padding: 11px 14px 14px 16px;
+  padding: 4px 14px;
   margin-bottom: 10px;
 }
 
@@ -2858,11 +2864,10 @@ div#mCSB_1_container {
 /* login form */
 .outer-container .search-container {
   display: flex;
+  width: 76%;
   justify-content: flex-end;
+  height: 16vh;
   align-items: center;
-  width: 70%;
-  padding-top: 30px;
-  padding-left: 150px;
 }
 
 .search-bar input {
@@ -2871,7 +2876,7 @@ div#mCSB_1_container {
   border-radius: 25px;
 }
 
-.search-container .login-btn button:hover {
+.search-container .login-btn a:hover {
   background-color: #f5a93f;
   transition: all 500ms ease;
 }
@@ -2880,16 +2885,16 @@ div#mCSB_1_container {
   color: white;
   transition: all 500ms ease;
 }
-
 .search-container .login-btn button {
-  padding: 10px 20px;
-  margin-bottom: 1rem;
-  margin-left: 1rem;
+  padding: 16px 0px;
 }
 
-.search-container .login-btn button a {
-  text-decoration: none;
-  color: black;
+.search-container .login-btn a {
+  padding: 20px 30px;
+}
+
+.search-container .login-btn {
+  margin-left: 160px;
 }
 
 /** main-footer **/
@@ -3169,7 +3174,6 @@ div#mCSB_1_container {
 .main-header.style-two .outer-container .header-upper .upper-left .logo-box {
   padding: 2px 16px;
   border: 1px solid #ffc107;
-  margin-top: 18px;
 }
 
 .main-header.style-two .main-menu .navigation > li {

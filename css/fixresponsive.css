@@ -1,0 +1,5 @@
+@media only screen and (max-width: 499px) {
+  .upper-left.pull-left.clearfix .search-container {
+    display: none;
+  }
+}
