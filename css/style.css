@@ -781,7 +781,7 @@ img {
   width: 0px;
   height: 2px;
   left: 50%;
-  bottom: 10px;
+  bottom: 0px;
   transform: translateX(-50%);
   transition: all 500ms ease;
 }
