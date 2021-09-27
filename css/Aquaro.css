@@ -50,8 +50,13 @@ main {
 
 .items a {
   text-align: center;
-  border: 1px solid black;
+  border: 1px solid rgb(189, 187, 187);
   padding: 10px 40px;
   color: orange;
   cursor: pointer;
+}
+
+.items a:hover {
+  background-color: orange;
+  color: white;
 }
