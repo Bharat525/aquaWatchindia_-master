@@ -1,0 +1,56 @@
+main {
+  height: 68vh;
+  margin-top: 2rem;
+}
+
+.main-container {
+  width: 80%;
+  margin: auto;
+  background-color: rgb(248, 248, 248);
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.items {
+  text-align: center;
+
+  padding: 20px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.items .img-container {
+  border: 1px solid rgb(218, 218, 218);
+  padding: 20px;
+  object-fit: contain;
+}
+
+.img-container img {
+  height: 240px;
+  width: 200px;
+  object-fit: cover;
+}
+
+.items:hover {
+  border: 1px solid orange;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  background-color: white;
+}
+
+.items .product-details h5 {
+  margin-top: 10px;
+}
+
+.items .product-details h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.items a {
+  text-align: center;
+  border: 1px solid black;
+  padding: 10px 40px;
+  color: orange;
+}
