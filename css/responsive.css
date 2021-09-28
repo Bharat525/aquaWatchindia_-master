@@ -389,8 +389,12 @@
 @media only screen and (max-width: 599px) {
   .main-slider h1,
   .page-title .content-box h1 {
-    font-size: 45px;
+    font-size: 2rem;
     line-height: 55px;
+  }
+
+  .btn-box a {
+    font-size: 1rem;
   }
 
   .sec-title h1 {
