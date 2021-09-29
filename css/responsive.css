@@ -54,7 +54,7 @@
   }
 
   .video-style-two #content_block_four .content-box {
-    position: relative;
+    position: relative !important;
     top: 0px;
     max-width: 100%;
   }
@@ -117,7 +117,7 @@
   .top-title .text-inner {
     float: none;
     display: block;
-    width: 100%;
+    width: 100% !important;
   }
 
   .sec-title h1:before {
@@ -126,8 +126,8 @@
   }
 
   .top-title .text-inner .text {
-    padding: 0px;
-    margin: 0px;
+    padding: 0px !important;
+    margin: 0px !important  ;
   }
 
   .video-section .lower-content .image-box {
@@ -321,7 +321,7 @@
   }
 
   .about-section #content_block_three .inner-box {
-    margin: 0px;
+    margin: 0px !important;
   }
 
   .about-section {
