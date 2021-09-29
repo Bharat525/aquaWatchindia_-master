@@ -3166,8 +3166,10 @@ div#mCSB_1_container {
 }
 
 .main-header.style-two .header-top .top-right .social-links li a:hover {
-  transform: scale(1.5);
+  transform: scale(1.8);
 }
+
+
 
 .main-header.style-two .outer-container .header-upper .upper-left .logo-box {
   padding: 2px 16px;
@@ -5452,7 +5454,7 @@ div#mCSB_1_container {
 }
 
 .blog-details-content .inner-box .upper-box .post-info .info-box li a:hover {
-  color: #f5a93f;
+  color: #111111;
 }
 
 .blog-details-content .inner-box .lower-box h2 {

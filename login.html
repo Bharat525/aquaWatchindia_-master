@@ -5,6 +5,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+    name="google-signin-client_id"
+    content="800865389984-7bemnnq8p02il4kgf9e51ts6bfk7i73q.apps.googleusercontent.com"
+  />
+
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0"
+    crossorigin="anonymous"
+  />
     <title>Login</title>
     <!-- Stylesheets -->
     <link rel="stylesheet" href="css/font-awesome-all.css">
@@ -214,8 +225,14 @@
 
                 <div class="btn">
                     <button>Login</button>
+                   
                 </div>
 
+                <div class="btn-g">
+
+                <div class="g-signin2" data-onsuccess="onSignIn"></div>
+            </div>
+                
 
             </form>
 
@@ -229,31 +246,15 @@
     </div>
 
 
-    <script>
-        var emailinput = document.querySelector('#email').value
-        var elPassword = document.querySelector('#pass').value
-        var btn = document.querySelector('button')
+   <script src="login.js"></script>
 
-        btn.addEventListener('click', clickme())
-
-
-        function clickme() {
-
-            if (elPassword && emailinput === "") {
-                console.log('hello')
-            } else {
-
-                alert
-            }
-
-        }
-
-
-
-
-
-
-    </script>
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+  crossorigin="anonymous"
+></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 </body>
 
