@@ -12,7 +12,7 @@
   }
 
   .main-header .outer-container {
-    padding: 0px 40px;
+    padding: 0px !important;
   }
 
   .main-header .outer-container .header-upper .upper-right .menu-right-content {
@@ -55,7 +55,7 @@
 
   .video-style-two #content_block_four .content-box {
     position: relative !important;
-    top: 0px;
+    top: 0px !important;
     max-width: 100%;
   }
 
@@ -341,7 +341,7 @@
   }
 
   .video-style-two {
-    padding-bottom: 70px;
+    padding-bottom: 70px !important;
   }
 
   .team-block-one .inner-box .lower-content .inner {
@@ -398,7 +398,7 @@
   }
 
   .sec-title h1 {
-    font-size: 36px;
+    font-size: 36px !important;
     line-height: 45px;
   }
 
@@ -467,7 +467,7 @@
   }
 
   .main-footer .footer-top .subscribe-form .form-group .theme-btn.style-two {
-    padding: 17px 20px;
+    padding: 17px 20px !important;
   }
 
   .main-footer .footer-top .subscribe-form .form-group input[type="email"] {
